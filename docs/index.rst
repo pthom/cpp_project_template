@@ -32,6 +32,10 @@ And a base class IMamal:
 .. doxygenclass:: Mamals::IMamal
    :members:
 
+.. uml::
+
+   Mamals.Canidae.Dog --|> Mamals.IMamal
+   Mamals.Felinae.Cat --|> Mamals.IMamal
 
 Mamals::Canidae namespace
 -------------------------
