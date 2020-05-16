@@ -17,15 +17,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-#ifndef CAT_SOUNDS_MEOW_HPP
-#define CAT_SOUNDS_MEOW_HPP
-
+#include "Mamals/Felidae/cat.hpp"
 #include <string>
 
-namespace Cat {
-  namespace Sounds {
-    std::string meow();
-  }
-}
+namespace Mamals
+{
+namespace Felinae
+{
 
-#endif
+std::string Cat::meow() {
+  return "meow!";
+};
+
+}
+}
